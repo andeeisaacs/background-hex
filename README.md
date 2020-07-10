@@ -10,4 +10,4 @@ As a user, when I visit the site, I am greeted with a hex color code in the midd
 As a user, when I click anywhere on the screen, the hex color code changes randomly and the background changes to the color it currently is set to.
 
 ### Pair programming partner
-Thanks, [Chantelle!](http://github.com/chantelleisaacs)
+Thanks, [Chantelle!](http://github.com/chantelle-isaacs)
