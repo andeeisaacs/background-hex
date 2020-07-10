@@ -1,0 +1,18 @@
+h1,p {
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 1px 1px grey;
+}
+
+#colorbox{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p {
+    position:fixed;
+    bottom:0;
+}
