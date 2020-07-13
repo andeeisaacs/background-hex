@@ -9,27 +9,27 @@ const changeColor = () => {
     let newArr = color.split("")
     let newColor = ["#"]
     //iterate through the length of the array.
-
-        newArr.map(value => {
-            value = Math.floor(Math.random() * 15)
-            //if below 9, just return value of the integer
-            if(value <= 9) {
-                newColor.push(value)
-                //If its greater than 9, set a letter value
-            } else if(value === 10){
-                newColor.push("a")       
-            } else if(value === 11){
-                newColor.push("b")
-            } else if(value === 12){
-                newColor.push("c")
-            } else if(value === 13){
-                newColor.push("d")
-            } else if(value === 14){
-                newColor.push("e")
-            } else {
-                newColor.push("f")
-            }
-        })
+    for(i = 1; i<newArr.length; i++){
+        //randomize the index value between a integer or a letter
+        newArr[i] = Math.floor(Math.random() * 15)
+        //if below 9, just return value of the integer
+        if(newArr[i] <= 9) {
+            newColor.push(newArr[i])
+            //If its greater than 9, set a letter value
+        } else if(newArr[i] === 10){
+            newColor.push("a")       
+        } else if(newArr[i] === 11){
+            newColor.push("b")
+        } else if(newArr[i] === 12){
+            newColor.push("c")
+        } else if(newArr[i] === 13){
+            newColor.push("d")
+        } else if(newArr[i] === 14){
+            newColor.push("e")
+        } else {
+            newColor.push("f")
+        }
+    }
 
     // for(i = 1; i<newArr.length; i++){
     //     //randomize the index value between a integer or a letter
